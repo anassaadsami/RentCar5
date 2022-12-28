@@ -1,0 +1,18 @@
+#bookings-view{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+table, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 4px 10px;
+}
+
+td{
+    padding: 5px 10px;
+}

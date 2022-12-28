@@ -1,0 +1,30 @@
+.login form {
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+.login p input {
+  margin: 10px;
+}
+
+#frame {
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+button {
+  width: 70px;
+  margin-top: 10px;
+}
+
+legend {
+  font-size: x-large;
+}
+
+/* fieldset {
+  margin: 20px;
+} */

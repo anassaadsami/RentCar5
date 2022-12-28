@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      el="stylesheet"/>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/carRent/login/login.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="login">
+      <div id="frm">
+        <!-- <h2>login page</h2> -->
+        <fieldset id="frame">
+          <legend>Login</legend>
+          <p>
+            <label for="Uname"> user name</label>
+            <input
+              type="text"
+              id="Uname"
+              name="userName"
+              placeholder="username"
+              required
+              autofocus
+            />
+          </p>
+          <p>
+            <label for="passWord"> password</label>
+            <input
+              type="password"
+              id="passWord"
+              name="password"
+              placeholder="password"
+              required
+            />
+          </p>
+          <button id="submitButton"  type="submit">submit</button>
+        </fieldset>
+      </div>
+    </div>
+    
+    <script src="/carRent/login/login.js" type="module"></script>
+    <!-- <script src="/carRent/login/getToken.js"></script> -->
+    <!-- carRent.js can get access to username value, password value,
+    but when it work the nav bar is removed ?? -->
+    <!-- <script src="/carRent/carRent.js" type="module"></script> -->
+  </body>
+</html>

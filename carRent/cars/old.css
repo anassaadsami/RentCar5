@@ -1,0 +1,64 @@
+/*  just direct children (div)  (img + details)   */
+.carList > div {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(246, 248, 240);
+    
+}
+
+.carList a{
+    text-decoration: none;
+    color: black;
+}
+.carList a:hover{
+  color: blue;
+}
+
+.carList img {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+/* to clear the extra (p element) which we added inside the div,
+cause we used float:left  */
+/* .clear {
+  clear: both;
+} */
+
+/* make the img div and details div take half half of its parent div */
+/* .carList > div div {
+} */
+
+.carList div div { 
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  
+  outline: 1px solid black;
+  outline-offset: -10px;
+  border-radius: 20px;
+
+  /* this to make short text in the center of div */
+  line-height: 100px;
+  text-align: center;
+
+  /* add if the text is long, so we make them in the center of div */
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.carList button {
+  width: 100px;
+  /* color: red; */
+
+}
+
+.carList div div > * {
+  margin: 15px;
+}
